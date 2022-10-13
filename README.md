@@ -18,20 +18,20 @@ Detecting Z-DNA & G-quadruplex
 
 ## Гистограммы ZH-Score
 
-![image](pics/carniphilus.png)
+![image](pictures/carniphilus.png)
 
-![image](pics/coleopterorum.png)
+![image](pictures/coleopterorum.png)
 
-![image](pics/hydrophili.png)
+![image](pictures/hydrophili.png)
 
-![image](pics/teuberi.png)
+![image](pictures/teuberi.png)
 
-![image](pics/zengguangii.png)
+![image](pictures/zengguangii.png)
 
 ## Полученные гомологичные кластеры
 Гистограмма распределения кластеров по количеству геномов | Гистограмма распределения кластеров по количеству генов
 -|-
-![image](pics/histogram_species.png) | ![image](pics/histogram_genes.png) 
+![image](pictures/histogram_species.png) | ![image](pictures/histogram_genes.png) 
 
 ### Полученные кластеры и количество элементов в них
 |  Количество генов  | # Zdna |
@@ -56,15 +56,15 @@ Detecting Z-DNA & G-quadruplex
 | 1 | WP_136953112.1 | 50S ribosomal protein L19 | 2143.653 |
 
 ## Визуализация
-![image](pics/carniphilus_zdna.png)
+![image](pictures/carniphilus_zdna.png)
 
-![image](pics/coleopterorum_zdna.png)
+![image](pictures/coleopterorum_zdna.png)
 
-![image](pics/hydrophili_zdna.png)
+![image](pictures/hydrophili_zdna.png)
 
-![image](pics/teuberi_zdna.png)
+![image](pictures/teuberi_zdna.png)
 
-![image](pics/zengguangii_zdna.png)
+![image](pictures/zengguangii_zdna.png)
 
 # G-квадруплексы
 
@@ -73,11 +73,11 @@ Detecting Z-DNA & G-quadruplex
 
 Гистограмма распределения G-квадруплексов у hydrophili | Гистограмма распределения G-квадруплексов у teuberi | Гистограмма распределения G-квадруплексов у zengguangi
 -|-|-
-![image](pics/hydrophili_histogram_quadruplex.png) | ![image](pics/teuberi_histogram_quadruplex.png) | ![image](pics/zengguangi_histogram_quadruplex.png)
+![image](pictures/hydrophili_histogram_quadruplex.png) | ![image](pictures/teuberi_histogram_quadruplex.png) | ![image](pictures/zengguangi_histogram_quadruplex.png)
 
 Так как Intersect не сработал вследствие того, что он не попадает на координаты внутри slop-файла, прилагаю лишь написанный код, позволяющий отображать картинку расположения G-квадруплекса на геномах:
 ![image](https://user-images.githubusercontent.com/65617930/195697693-f8651541-d724-45be-a24d-bcb4989ffa46.png)
 
-![image](pics/code_visualizing_g-quadruplex.png)
+![image](pictures/code_visualizing_g-quadruplex.png)
 
 Я решил несколько ознакомиться с данным родом бактерий. Как мне удалось узнать, Vagococcus — род грамположительных бактерий, впревые выдленный в 1974 году из речной воды, но крайне мало изученный. Возможно, у данной бактерии повышенная склонность к мутации, поэтому и небольшое количество сильно консервативных участков.
